@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    position: absolute;
+    color: red;
+    padding: 5px;
+    left: 4%;
+}
+
+.navbar {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+    border-bottom: 2px solid rgb(214, 25, 25);
+}
+
+.navlist-left {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    left: 16%;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.navlist-left li {
+    padding: 17px 10px;
+    color: white;
+}
+
+.navlist-left a {
+    text-decoration: none;
+    color: white;
+}
+
+.navlist-right {
+    position: absolute;
+    display: flex;
+    color: white;
+    left: 79%;
+    list-style: none;
+}
+
+.navlist-right li {
+    padding: 20px 13px;
+    font-size: 14px;
+}
+
+.navlist-right a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    position: absolute;
+    left: 95%;
+    width: 1.5%;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 20px;
+}
+
+.body {
+    position: absolute;
+    top: 12%;
+}
+
+.trending {
+    margin-left: 65px;
+    color: white;
+}
+
+.trending-list {
+    margin-left: 40px;
+    display: flex;
+    list-style: none;
+}
+
+.trending-list li {
+    width: 265px;
+    height: 150px;
+    background-color: gray;
+    margin: 25px;
+}
+
+.continuewatching {
+    margin-left: 65px;
+    color: white;
+}
+
+.continuewatching-list {
+    margin-left: 40px;
+    display: flex;
+    list-style: none;
+}
+
+.continuewatching-list li {
+    width: 265px;
+    height: 150px;
+    background-color: gray;
+    margin: 25px;
+}
+
+.watch-again {
+    margin-left: 65px;
+    color: white;
+}
+
+.watchagain-list {
+    margin-left: 40px;
+    display: flex;
+    list-style: none;
+}
+
+.watchagain-list li {
+    width: 265px;
+    height: 150px;
+    background-color: gray;
+    margin: 25px;
+}
